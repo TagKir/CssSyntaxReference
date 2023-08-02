@@ -12,7 +12,7 @@ table{
     margin: 0 auto;
     border: 1.5px solid lightslategray;
 }
-.basicsyntax td:last-child, .combinators td:last-child, .pseudo td.last-child{
+.basicsyntax td:not(:last-child), .combinators td:not(:last-child), .pseudo td:not(:last-child){
     padding-right: 24px;
 }
 th{
