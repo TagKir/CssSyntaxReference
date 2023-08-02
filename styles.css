@@ -26,3 +26,10 @@ td{
 .syntax, .example{
     font-family: monospace, serif;
 }
+#сюрприз, #спокойнойночи{
+    font-family: "Roboto Slab";
+    color: rgb(13, 68, 231);
+}
+img{
+    width: 100%;
+}
