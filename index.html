@@ -1,9 +1,128 @@
-<html>
- 
-<body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table Reference</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/html-css-cheatsheet-starting/styles.css" />
+  </head>
+  <body>
+    <h1>CSS syntaxs Reference</h1>
+    <h2>Basic syntaxs</h2>
+    <table class="basicsyntax">
+      <thead>
+        <tr>
+          <th>Syntax</th>
+          <th>Example</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="syntax">*</td>
+          <td class="example">*</td>
+          <td>Selects all elements</td>
+        </tr>
+        <tr>
+          <td class="syntax">type</td>
+          <td class="example">h1</td>
+          <td>Selects the type of elements</td>
+        </tr>
+        <tr>
+          <td class="syntax">.class</td>
+          <td class="example">.example_class</td>
+          <td>
+            The base syntax selects elements based on the value of the class
+            attribute
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">#id</td>
+          <td class="example">#12345</td>
+          <td>Identifies an element by its unique identifier</td>
+        </tr>
+        <tr>
+          <td class="syntax">type[attr]|[attr]</td>
+          <td class="example">a[href="..."]</td>
+          <td>
+            Selects all elements that have this attribute or attribute with a
+            certain value
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Combinators</h2>
+    <table class="combinators">
+      <thead>
+        <tr>
+          <th>Syntax</th>
+          <th>Example</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="syntax">A, B</td>
+          <td class="example">div, span</td>
+          <td>Selects all elements</td>
+        </tr>
+        <tr>
+          <td class="syntax">A B</td>
+          <td class="example">div span</td>
+          <td>Selects the elements that are inside the specified element</td>
+        </tr>
+        <tr>
+          <td class="syntax">A > B</td>
+          <td class="example">ul li</td>
+          <td>
+            Selects only those elements that are child elements directly in
+            relation to the specified element
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">A ~ B</td>
+          <td class="example">p ~ span</td>
+          <td>
+            Selects items that are at the same nesting level after the specified
+            element, with the same parent
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">A + B</td>
+          <td class="example">h2 + p</td>
+          <td>
+            Selects an element that is immediately after the specified element
+            if they have a common parent
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Pseudo-classes and Pseudo-elements</h2>
+    <table class="pseudo">
+      <thead>
+        <th>Syntax</th>
+        <th>Example</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="syntax">:pseudo</td>
+          <td class="example">a:visited</td>
+          <td>
+            Allows you to select items based on information that is not in the
+            item tree
+          </td>
+        </tr>
+        <tr>
+          <td class="syntax">::pseudo</td>
+          <td class="example">p::first-line</td>
+          <td>Allows you to select things that are not in HTML</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
