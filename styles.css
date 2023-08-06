@@ -1,34 +1,39 @@
-body{
-    background-color: honeydew;
+body {
+  background-color: honeydew;
 }
-h1, h2{
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
+h1,
+h2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
-h2{
-    color: rgb(21, 0, 255);
+h2 {
+  color: rgb(21, 0, 255);
 }
-table{
-    margin: 0 auto;
-    border: 1.5px solid lightslategray;
+table {
+  margin: 0 auto;
+  border: 1.5px solid lightslategray;
 }
-.basicsyntax td:not(:last-child), .combinators td:not(:last-child), .pseudo td:not(:last-child){
-    padding-right: 24px;
+.basicsyntax td:not(:last-child),
+.combinators td:not(:last-child),
+.pseudo td:not(:last-child) {
+  padding-right: 24px;
 }
-th{
-    background-color: hsla(195, 71%, 61%, 0.715);
+th {
+  background-color: hsla(195, 71%, 61%, 0.715);
 }
-td{
-    border-top: 1.5px solid lightslategray;
-    padding-right: 2px;
+td {
+  border-top: 1.5px solid lightslategray;
+  padding-right: 2px;
 }
 
-.syntax, .example{
-    font-family: monospace, serif;
+.syntax,
+.example {
+  font-family: monospace, serif;
 }
-#a, #b{
-    color: rgb(13, 68, 231) !important;
+#a,
+#b {
+  color: rgb(13, 68, 231) !important;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
